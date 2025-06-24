@@ -6636,6 +6636,9 @@ html:not([dir="rtl"]) .about-area.reverse .layer-style {
 .team-member .thumb img {
   border-radius: 22px;
   width: 100%;
+  min-height: 30svh;
+  object-fit: cover;
+
   transition: all 0.8s ease-in-out;
   -webkit-transition: all 0.8s ease-in-out;
   -moz-transition: all 0.8s ease-in-out;
